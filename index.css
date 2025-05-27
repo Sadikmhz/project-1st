@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Tagesschrift&display=swap');
+body{
+    font-family: "open sans", sans-serif;
+}
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.con{
+    width: 1200px; margin: auto;
+}
+.flex{
+    display: flex;
+    margin-top: 60px;
+}
+.jc{
+    justify-content: space-between;
+}
+.ai {
+    justify-content: space-between;
+    margin-top: auto;
+}
+.gap{
+    gap: 30px;
+    margin-right: 50px;
+}
+.top{
+    background: rgba(0, 61, 0, 0.993); color: white; padding: 10px 0; font-size: 14px;
+}
+header{
+    background: rgb(15, 138, 15); padding: 10px 0;
+}
+.banner{
+    background: linear-gradient(green, #24e024);
+    padding: 40px 0;
+}
+w-100{
+    width: 100%;
+    height: 550px;
+}
+.content{
+    padding-left: 10%;
+    margin-top: 0;
+    width: 65%;
+}
+.content h1 {
+    font-size: 25px;
+    word-spacing: 4px;
+    padding-bottom: 5px;
+}
+.content p {
+    text-align: justify;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+.green-box {
+    background-color: #0c750c;
+    padding: 20px;
+    width: 26%;
+    color: white;
+}
+.news-item p {
+    line-height: 25px;
+}
+.Search-bar input {
+    background-color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+}
+.Search-bar button {
+    padding: 12px;
+    border: none;
+}
+.flexul {
+    padding: 10px;
+    line-height: 30px;
+}
+.list h2 {
+    letter-spacing: 5px;
+    padding: 30px;
+}
+.footer {
+    background-color: rgb(30, 189, 30);
+    padding: 20px 30px;
+    color: bisque;
+    font-size: 16px;
+}
+.footer-containor {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 15px;
+}
+.footer-section h3 {
+    color: #2e8b57;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
